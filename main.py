@@ -7,7 +7,7 @@ sns.set(style='dark')
 st.header('Bike Sharing :bike:')
 hour = pd.read_csv("dashboard/hour_cleaned.csv")
 with st.sidebar:
-    st.image("bicycle.png")
+    st.image("dashboard/bicycle.png")
     
     year = st.selectbox(
         label="Tahun",
