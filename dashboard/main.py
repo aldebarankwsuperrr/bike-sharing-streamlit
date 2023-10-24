@@ -5,7 +5,7 @@ import streamlit as st
 sns.set(style='dark')
 
 st.header('Bike Sharing :bike:')
-hour = pd.read_csv("hour_cleaned.csv")
+hour = pd.read_csv("dashboard/hour_cleaned.csv")
 with st.sidebar:
     st.image("bicycle.png")
     
